@@ -1,18 +1,16 @@
 <?php
 namespace DB1OS\core\entity;
-use \Exception;
 
-
-class UnsignedInteger
+Class UnsignedInteger
 {
-    private string $uInt;
+    private int $uInt;
 
     public function __construct(int $integer)
     {
         $this->uInt = $integer;
     }
 
-    public function getUint() : string
+    public function getUint() : int
     {
         return $this->uInt;
     }
